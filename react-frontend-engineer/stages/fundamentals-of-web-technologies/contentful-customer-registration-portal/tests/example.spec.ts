@@ -14,5 +14,5 @@ test('User visits the landing page and clicks the `Get started` link', async ({ 
   await page.getByRole('link', { name: 'Get started' }).click();
 
   // Expects the URL to contain intro.
-  await expect(page).toHaveURL(/.*intro/);
+  await expect(page).toHaveURL(/.*intrexo/);
 });
