@@ -96,6 +96,13 @@
         null
       ],
       [
+        "html",
+        {
+          "outputFolder": "skillyard-io-playwright-test-results",
+          "open": "never"
+        }
+      ],
+      [
         "json",
         {
           "outputFile": "skillyard-io-playwright-test-results.json"
@@ -137,12 +144,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 2882,
+                  "duration": 1279,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T06:29:31.714Z",
+                  "startTime": "2023-02-02T21:43:29.669Z",
                   "attachments": []
                 }
               ],
@@ -156,7 +163,7 @@
         },
         {
           "title": "User visits the landing page and clicks the `Get started` link",
-          "ok": false,
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -168,40 +175,22 @@
               "results": [
                 {
                   "workerIndex": 1,
-                  "status": "timedOut",
-                  "duration": 6001,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 6000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
-                    {
-                      "message": "\u001b[31mTest timeout of 6000ms exceeded.\u001b[39m"
-                    },
-                    {
-                      "location": {
-                        "file": "/Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests/example.spec.ts",
-                        "column": 22,
-                        "line": 17
-                      },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/.*intrxioeo/\u001b[39m\nReceived string:  \u001b[31m\"https://playwright.dev/docs/intro\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39mexample.spec.ts:17\n\n\u001b[0m \u001b[90m 15 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[90m// Expects the URL to contain intro.\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/.*intrxioeo/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests/example.spec.ts:17:22\u001b[22m"
-                    },
-                    {
-                      "message": "Pending operations:\n  - expect.toHaveURL at tests/example.spec.ts:17:22\n"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 1422,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T06:29:31.714Z",
+                  "startTime": "2023-02-02T21:43:29.667Z",
                   "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
           "id": "a30a6eba6312f6b87ea5-f46215380d0214a0d6e6",
           "file": "example.spec.ts",
-          "line": 10,
+          "line": 12,
           "column": 5
         },
         {
@@ -219,12 +208,12 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 1931,
+                  "duration": 1491,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T06:29:31.721Z",
+                  "startTime": "2023-02-02T21:43:29.675Z",
                   "attachments": []
                 }
               ],
@@ -238,7 +227,7 @@
         },
         {
           "title": "User visits the landing page and clicks the `Get started` link",
-          "ok": false,
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -250,40 +239,22 @@
               "results": [
                 {
                   "workerIndex": 3,
-                  "status": "timedOut",
-                  "duration": 5999,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 6000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
-                    {
-                      "message": "\u001b[31mTest timeout of 6000ms exceeded.\u001b[39m"
-                    },
-                    {
-                      "location": {
-                        "file": "/Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests/example.spec.ts",
-                        "column": 22,
-                        "line": 17
-                      },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/.*intrxioeo/\u001b[39m\nReceived string:  \u001b[31m\"https://playwright.dev/docs/intro\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39mexample.spec.ts:17\n\n\u001b[0m \u001b[90m 15 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[90m// Expects the URL to contain intro.\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/.*intrxioeo/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests/example.spec.ts:17:22\u001b[22m"
-                    },
-                    {
-                      "message": "Pending operations:\n  - expect.toHaveURL at tests/example.spec.ts:17:22\n"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 1708,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T06:29:31.714Z",
+                  "startTime": "2023-02-02T21:43:29.667Z",
                   "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
           "id": "a30a6eba6312f6b87ea5-8d542a2fe8c84f0595cc",
           "file": "example.spec.ts",
-          "line": 10,
+          "line": 12,
           "column": 5
         },
         {
@@ -299,14 +270,14 @@
               "projectName": "webkit",
               "results": [
                 {
-                  "workerIndex": 5,
+                  "workerIndex": 4,
                   "status": "passed",
-                  "duration": 2687,
+                  "duration": 1511,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T06:29:35.511Z",
+                  "startTime": "2023-02-02T21:43:31.496Z",
                   "attachments": []
                 }
               ],
@@ -320,7 +291,7 @@
         },
         {
           "title": "User visits the landing page and clicks the `Get started` link",
-          "ok": false,
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -331,41 +302,23 @@
               "projectName": "webkit",
               "results": [
                 {
-                  "workerIndex": 4,
-                  "status": "timedOut",
-                  "duration": 5999,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 6000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
-                    {
-                      "message": "\u001b[31mTest timeout of 6000ms exceeded.\u001b[39m"
-                    },
-                    {
-                      "location": {
-                        "file": "/Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests/example.spec.ts",
-                        "column": 22,
-                        "line": 17
-                      },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/.*intrxioeo/\u001b[39m\nReceived string:  \u001b[31m\"https://playwright.dev/docs/intro\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39mexample.spec.ts:17\n\n\u001b[0m \u001b[90m 15 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[90m// Expects the URL to contain intro.\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/.*intrxioeo/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests/example.spec.ts:17:22\u001b[22m"
-                    },
-                    {
-                      "message": "Pending operations:\n  - expect.toHaveURL at tests/example.spec.ts:17:22\n"
-                    }
-                  ],
+                  "workerIndex": 5,
+                  "status": "passed",
+                  "duration": 1389,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T06:29:35.216Z",
+                  "startTime": "2023-02-02T21:43:31.672Z",
                   "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
           "id": "a30a6eba6312f6b87ea5-ebd6a8e38188b8e618ff",
           "file": "example.spec.ts",
-          "line": 10,
+          "line": 12,
           "column": 5
         },
         {
@@ -383,12 +336,12 @@
                 {
                   "workerIndex": 6,
                   "status": "passed",
-                  "duration": 2647,
+                  "duration": 1829,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T06:29:38.388Z",
+                  "startTime": "2023-02-02T21:43:33.328Z",
                   "attachments": []
                 }
               ],
@@ -402,7 +355,7 @@
         },
         {
           "title": "User visits the landing page and clicks the `Get started` link",
-          "ok": false,
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -414,40 +367,22 @@
               "results": [
                 {
                   "workerIndex": 7,
-                  "status": "timedOut",
-                  "duration": 6001,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 6000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
-                    {
-                      "message": "\u001b[31mTest timeout of 6000ms exceeded.\u001b[39m"
-                    },
-                    {
-                      "location": {
-                        "file": "/Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests/example.spec.ts",
-                        "column": 22,
-                        "line": 17
-                      },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/.*intrxioeo/\u001b[39m\nReceived string:  \u001b[31m\"https://playwright.dev/docs/intro\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39mexample.spec.ts:17\n\n\u001b[0m \u001b[90m 15 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[90m// Expects the URL to contain intro.\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/.*intrxioeo/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests/example.spec.ts:17:22\u001b[22m"
-                    },
-                    {
-                      "message": "Pending operations:\n  - expect.toHaveURL at tests/example.spec.ts:17:22\n"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 1892,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T06:29:38.612Z",
+                  "startTime": "2023-02-02T21:43:33.344Z",
                   "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
           "id": "a30a6eba6312f6b87ea5-76ef3a64a835b0534d62",
           "file": "example.spec.ts",
-          "line": 10,
+          "line": 12,
           "column": 5
         },
         {
@@ -465,12 +400,12 @@
                 {
                   "workerIndex": 8,
                   "status": "passed",
-                  "duration": 2999,
+                  "duration": 1495,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T06:29:38.804Z",
+                  "startTime": "2023-02-02T21:43:33.415Z",
                   "attachments": []
                 }
               ],
@@ -484,7 +419,7 @@
         },
         {
           "title": "User visits the landing page and clicks the `Get started` link",
-          "ok": false,
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -496,40 +431,22 @@
               "results": [
                 {
                   "workerIndex": 9,
-                  "status": "timedOut",
-                  "duration": 6000,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 6000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
-                    {
-                      "message": "\u001b[31mTest timeout of 6000ms exceeded.\u001b[39m"
-                    },
-                    {
-                      "location": {
-                        "file": "/Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests/example.spec.ts",
-                        "column": 22,
-                        "line": 17
-                      },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/.*intrxioeo/\u001b[39m\nReceived string:  \u001b[31m\"https://playwright.dev/docs/intro\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39mexample.spec.ts:17\n\n\u001b[0m \u001b[90m 15 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[90m// Expects the URL to contain intro.\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/.*intrxioeo/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests/example.spec.ts:17:22\u001b[22m"
-                    },
-                    {
-                      "message": "Pending operations:\n  - expect.toHaveURL at tests/example.spec.ts:17:22\n"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 1643,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T06:29:41.409Z",
+                  "startTime": "2023-02-02T21:43:33.494Z",
                   "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
           "id": "a30a6eba6312f6b87ea5-7a3490e370709263575d",
           "file": "example.spec.ts",
-          "line": 10,
+          "line": 12,
           "column": 5
         },
         {
@@ -547,12 +464,12 @@
                 {
                   "workerIndex": 10,
                   "status": "passed",
-                  "duration": 1935,
+                  "duration": 1162,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T06:29:41.666Z",
+                  "startTime": "2023-02-02T21:43:35.332Z",
                   "attachments": []
                 }
               ],
@@ -566,7 +483,7 @@
         },
         {
           "title": "User visits the landing page and clicks the `Get started` link",
-          "ok": false,
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -578,40 +495,22 @@
               "results": [
                 {
                   "workerIndex": 11,
-                  "status": "timedOut",
-                  "duration": 6001,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 6000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
-                    {
-                      "message": "\u001b[31mTest timeout of 6000ms exceeded.\u001b[39m"
-                    },
-                    {
-                      "location": {
-                        "file": "/Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests/example.spec.ts",
-                        "column": 22,
-                        "line": 17
-                      },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/.*intrxioeo/\u001b[39m\nReceived string:  \u001b[31m\"https://playwright.dev/docs/intro\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://playwright.dev/docs/intro\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39mexample.spec.ts:17\n\n\u001b[0m \u001b[90m 15 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[90m// Expects the URL to contain intro.\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/.*intrxioeo/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests/example.spec.ts:17:22\u001b[22m"
-                    },
-                    {
-                      "message": "Pending operations:\n  - expect.toHaveURL at tests/example.spec.ts:17:22\n"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 1613,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T06:29:42.136Z",
+                  "startTime": "2023-02-02T21:43:35.550Z",
                   "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
           "id": "a30a6eba6312f6b87ea5-894145790c0a4ba6839c",
           "file": "example.spec.ts",
-          "line": 10,
+          "line": 12,
           "column": 5
         }
       ]
