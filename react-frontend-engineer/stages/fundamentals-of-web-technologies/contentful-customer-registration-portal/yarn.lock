@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@axe-core/playwright@^4.6.0":
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/@axe-core/playwright/-/playwright-4.6.0.tgz#9a91118e6876ece891eac17fa49174d77caf9356"
+  integrity sha512-q9K4GVJ1fH8FQqErgs01dwzhOJ03vZDfMg+vO9Er05BxQOCp9Rm8oyB3byVzC7oNlxFaPU1qQ8zLwZYypHmchw==
+  dependencies:
+    axe-core "^4.6.1"
+
 "@playwright/test@^1.30.0":
   version "1.30.0"
   resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.30.0.tgz#8c0c4930ff2c7be7b3ec3fd434b2a3b4465ed7cb"
@@ -14,6 +21,11 @@
   version "18.11.18"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.18.tgz#8dfb97f0da23c2293e554c5a50d61ef134d7697f"
   integrity sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==
+
+axe-core@^4.6.1:
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.6.3.tgz#fc0db6fdb65cc7a80ccf85286d91d64ababa3ece"
+  integrity sha512-/BQzOX780JhsxDnPpH4ZiyrJAzcd8AfzFPkv+89veFSr1rcMjuq2JDCwypKaPeB6ljHp9KjXhPpjgCvQlWYuqg==
 
 playwright-core@1.30.0:
   version "1.30.0"

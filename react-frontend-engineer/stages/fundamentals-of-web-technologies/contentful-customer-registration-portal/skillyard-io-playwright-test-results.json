@@ -23,71 +23,6 @@
           "**/?(*.)@(spec|test).*"
         ],
         "timeout": 6000
-      },
-      {
-        "outputDir": "/Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/test-results",
-        "repeatEach": 1,
-        "retries": 0,
-        "id": "firefox",
-        "name": "firefox",
-        "testDir": "/Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests",
-        "testIgnore": [],
-        "testMatch": [
-          "**/?(*.)@(spec|test).*"
-        ],
-        "timeout": 6000
-      },
-      {
-        "outputDir": "/Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/test-results",
-        "repeatEach": 1,
-        "retries": 0,
-        "id": "webkit",
-        "name": "webkit",
-        "testDir": "/Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests",
-        "testIgnore": [],
-        "testMatch": [
-          "**/?(*.)@(spec|test).*"
-        ],
-        "timeout": 6000
-      },
-      {
-        "outputDir": "/Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/test-results",
-        "repeatEach": 1,
-        "retries": 0,
-        "id": "Mobile Chrome",
-        "name": "Mobile Chrome",
-        "testDir": "/Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests",
-        "testIgnore": [],
-        "testMatch": [
-          "**/?(*.)@(spec|test).*"
-        ],
-        "timeout": 6000
-      },
-      {
-        "outputDir": "/Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/test-results",
-        "repeatEach": 1,
-        "retries": 0,
-        "id": "Mobile Safari",
-        "name": "Mobile Safari",
-        "testDir": "/Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests",
-        "testIgnore": [],
-        "testMatch": [
-          "**/?(*.)@(spec|test).*"
-        ],
-        "timeout": 6000
-      },
-      {
-        "outputDir": "/Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/test-results",
-        "repeatEach": 1,
-        "retries": 0,
-        "id": "Google Chrome",
-        "name": "Google Chrome",
-        "testDir": "/Users/bahdcoder/Code/Hovaschool/repository-tests/react-frontend-engineer/stages/fundamentals-of-web-technologies/contentful-customer-registration-portal/tests",
-        "testIgnore": [],
-        "testMatch": [
-          "**/?(*.)@(spec|test).*"
-        ],
-        "timeout": 6000
       }
     ],
     "reporter": [
@@ -124,13 +59,13 @@
   },
   "suites": [
     {
-      "title": "example.spec.ts",
-      "file": "example.spec.ts",
+      "title": "checks.spec.ts",
+      "file": "checks.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "User visits the landing page and views the hero section title",
+          "title": "The main heading on the page is <Start building with Contentful, no credit card required.> and is an h1 element",
           "ok": true,
           "tags": [],
           "tests": [
@@ -144,25 +79,25 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1279,
+                  "duration": 3843,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T21:43:29.669Z",
+                  "startTime": "2023-02-12T09:58:42.457Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "a30a6eba6312f6b87ea5-4eb80b3ef1a558f21d38",
-          "file": "example.spec.ts",
-          "line": 3,
+          "id": "01be603a0d120b51532e-78c5f3f854e76f470167",
+          "file": "checks.spec.ts",
+          "line": 5,
           "column": 5
         },
         {
-          "title": "User visits the landing page and clicks the `Get started` link",
+          "title": "Clicking the login link opens a new tab to the contentful login page",
           "ok": true,
           "tags": [],
           "tests": [
@@ -176,25 +111,25 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 1422,
+                  "duration": 5499,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T21:43:29.667Z",
+                  "startTime": "2023-02-12T09:58:42.462Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "a30a6eba6312f6b87ea5-f46215380d0214a0d6e6",
-          "file": "example.spec.ts",
-          "line": 12,
+          "id": "01be603a0d120b51532e-786aed71559e30489c5d",
+          "file": "checks.spec.ts",
+          "line": 13,
           "column": 5
         },
         {
-          "title": "User visits the landing page and views the hero section title",
+          "title": "Clicking the Signup with Github redirects the user to the server github login",
           "ok": true,
           "tags": [],
           "tests": [
@@ -202,31 +137,31 @@
               "timeout": 6000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 1491,
+                  "duration": 5413,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T21:43:29.675Z",
+                  "startTime": "2023-02-12T09:58:42.459Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "a30a6eba6312f6b87ea5-aa7b7dc3f486f998a311",
-          "file": "example.spec.ts",
-          "line": 3,
+          "id": "01be603a0d120b51532e-bdce96ca8fd681b07e92",
+          "file": "checks.spec.ts",
+          "line": 27,
           "column": 5
         },
         {
-          "title": "User visits the landing page and clicks the `Get started` link",
+          "title": "Clicking the Signup with Google redirects the user to the server google login",
           "ok": true,
           "tags": [],
           "tests": [
@@ -234,31 +169,31 @@
               "timeout": 6000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
                   "workerIndex": 3,
                   "status": "passed",
-                  "duration": 1708,
+                  "duration": 5269,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T21:43:29.667Z",
+                  "startTime": "2023-02-12T09:58:42.463Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "a30a6eba6312f6b87ea5-8d542a2fe8c84f0595cc",
-          "file": "example.spec.ts",
-          "line": 12,
+          "id": "01be603a0d120b51532e-2ca3b7a68a4329df539c",
+          "file": "checks.spec.ts",
+          "line": 41,
           "column": 5
         },
         {
-          "title": "User visits the landing page and views the hero section title",
+          "title": "Check the form has a Full name field",
           "ok": true,
           "tags": [],
           "tests": [
@@ -266,31 +201,31 @@
               "timeout": 6000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 4,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1511,
+                  "duration": 2108,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T21:43:31.496Z",
+                  "startTime": "2023-02-12T09:58:46.569Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "a30a6eba6312f6b87ea5-025fb9d27de51e0da1e8",
-          "file": "example.spec.ts",
-          "line": 3,
+          "id": "01be603a0d120b51532e-f90b9f6ed856180e1714",
+          "file": "checks.spec.ts",
+          "line": 55,
           "column": 5
         },
         {
-          "title": "User visits the landing page and clicks the `Get started` link",
+          "title": "Check the form has a Company field",
           "ok": true,
           "tags": [],
           "tests": [
@@ -298,31 +233,31 @@
               "timeout": 6000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 5,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 1389,
+                  "duration": 1965,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T21:43:31.672Z",
+                  "startTime": "2023-02-12T09:58:47.996Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "a30a6eba6312f6b87ea5-ebd6a8e38188b8e618ff",
-          "file": "example.spec.ts",
-          "line": 12,
+          "id": "01be603a0d120b51532e-b33d8b06b5d82cbcf1f4",
+          "file": "checks.spec.ts",
+          "line": 61,
           "column": 5
         },
         {
-          "title": "User visits the landing page and views the hero section title",
+          "title": "Check the form has an Email field",
           "ok": true,
           "tags": [],
           "tests": [
@@ -330,31 +265,31 @@
               "timeout": 6000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Mobile Chrome",
-              "projectName": "Mobile Chrome",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 6,
+                  "workerIndex": 2,
                   "status": "passed",
-                  "duration": 1829,
+                  "duration": 1681,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T21:43:33.328Z",
+                  "startTime": "2023-02-12T09:58:48.135Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "a30a6eba6312f6b87ea5-60e494bd7460db1caca4",
-          "file": "example.spec.ts",
-          "line": 3,
+          "id": "01be603a0d120b51532e-7cc9e5d2cf7c84da6247",
+          "file": "checks.spec.ts",
+          "line": 67,
           "column": 5
         },
         {
-          "title": "User visits the landing page and clicks the `Get started` link",
+          "title": "Check the form has a Job Title field",
           "ok": true,
           "tags": [],
           "tests": [
@@ -362,95 +297,31 @@
               "timeout": 6000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Mobile Chrome",
-              "projectName": "Mobile Chrome",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 7,
-                  "status": "passed",
-                  "duration": 1892,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-02-02T21:43:33.344Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "a30a6eba6312f6b87ea5-76ef3a64a835b0534d62",
-          "file": "example.spec.ts",
-          "line": 12,
-          "column": 5
-        },
-        {
-          "title": "User visits the landing page and views the hero section title",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 6000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Mobile Safari",
-              "projectName": "Mobile Safari",
-              "results": [
-                {
-                  "workerIndex": 8,
-                  "status": "passed",
-                  "duration": 1495,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-02-02T21:43:33.415Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "a30a6eba6312f6b87ea5-e41781a05e3fd31b1a7f",
-          "file": "example.spec.ts",
-          "line": 3,
-          "column": 5
-        },
-        {
-          "title": "User visits the landing page and clicks the `Get started` link",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 6000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Mobile Safari",
-              "projectName": "Mobile Safari",
-              "results": [
-                {
-                  "workerIndex": 9,
+                  "workerIndex": 1,
                   "status": "passed",
                   "duration": 1643,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T21:43:33.494Z",
+                  "startTime": "2023-02-12T09:58:48.221Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "a30a6eba6312f6b87ea5-7a3490e370709263575d",
-          "file": "example.spec.ts",
-          "line": 12,
+          "id": "01be603a0d120b51532e-65e5567e3ba0e56daff0",
+          "file": "checks.spec.ts",
+          "line": 73,
           "column": 5
         },
         {
-          "title": "User visits the landing page and views the hero section title",
+          "title": "Check the form has a Job Function field",
           "ok": true,
           "tags": [],
           "tests": [
@@ -458,31 +329,31 @@
               "timeout": 6000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 10,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1162,
+                  "duration": 1655,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T21:43:35.332Z",
+                  "startTime": "2023-02-12T09:58:48.678Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "a30a6eba6312f6b87ea5-d196441f976537f268a2",
-          "file": "example.spec.ts",
-          "line": 3,
+          "id": "01be603a0d120b51532e-915ed3d8c091d836ab50",
+          "file": "checks.spec.ts",
+          "line": 79,
           "column": 5
         },
         {
-          "title": "User visits the landing page and clicks the `Get started` link",
+          "title": "Check the form has a Password field",
           "ok": true,
           "tags": [],
           "tests": [
@@ -490,27 +361,91 @@
               "timeout": 6000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 11,
+                  "workerIndex": 2,
                   "status": "passed",
-                  "duration": 1613,
+                  "duration": 1656,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-02T21:43:35.550Z",
+                  "startTime": "2023-02-12T09:58:49.818Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "a30a6eba6312f6b87ea5-894145790c0a4ba6839c",
-          "file": "example.spec.ts",
-          "line": 12,
+          "id": "01be603a0d120b51532e-ef27683e4d1de91ca107",
+          "file": "checks.spec.ts",
+          "line": 85,
+          "column": 5
+        },
+        {
+          "title": "Check the form can be filled correctly by customers and submitted successfully",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 6000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 2910,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-02-12T09:58:49.865Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "01be603a0d120b51532e-0d9d7b3f7cc3795072c7",
+          "file": "checks.spec.ts",
+          "line": 91,
+          "column": 5
+        },
+        {
+          "title": "Should pass all automated accessibility checks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 6000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 2045,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-02-12T09:58:49.963Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "01be603a0d120b51532e-1ba31dafc24118aaf708",
+          "file": "checks.spec.ts",
+          "line": 114,
           "column": 5
         }
       ]
